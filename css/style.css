@@ -9,6 +9,37 @@ body {
     margin: 0 auto 0 auto;
 }
 
+
+/* for main nav */
+
+ul {
+    padding-left: 0;
+    margin-left: 0;
+    background-color: #003366;
+    color: #ffffff;
+    float: left;
+    width: 100%;
+    font-family: arial, helvetica, sans-serif;
+}
+
+li {
+    display: inline;
+}
+
+ul li a {
+    padding: 0.2em 1em;
+    background-color: #003366;
+    color: #ffffff;
+    text-decoration: none;
+    float: left;
+    border-right: 3px solid #ffffff;
+}
+
+ul li a:hover {
+    background-color: #336699;
+    color: #ffffff;
+}
+
 .red-box {
     width: 200px;
     height: 200px;
