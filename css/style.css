@@ -1,12 +1,22 @@
 body {
-    background-color: #308D99;
+    background-color: #53777A;
 }
 
 .container {
+    background-color: #D95B43;
     width: 800px;
-    border: 1px solid #000000;
+    border: 3px solid #000000;
     padding: 20px;
     margin: 0 auto 0 auto;
+}
+
+header {
+    background-color: #C02942;
+}
+
+h1, h2 {
+    /*font-family: 'Indie Flower', cursive;*/
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -56,5 +66,6 @@ li a {
 }
 
 footer {
+    border-top: 1px solid #000000;
     clear: both;
 }
